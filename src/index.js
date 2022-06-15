@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+
+// no sé qué es, supongo algo nuevo, ni idea si se usa
 import reportWebVitals from './reportWebVitals';
+
+//importamos la app 
+import GifExpertApp from './GifExpertApp';
+// importamos el css
+import './index.css';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <GifExpertApp />
 );
 
 // If you want to start measuring performance in your app, pass a function
